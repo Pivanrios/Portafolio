@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Hero from "../../components/Hero";
+import Toggle from "../../components/ui/Toggle";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
             <Link href={"/"}>Connect</Link>
           </ul>
         </nav>
+        <Toggle/>
       </div>
 
       <Hero/>
