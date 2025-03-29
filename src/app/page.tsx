@@ -6,13 +6,13 @@ import Toggle from "../../components/ui/Toggle";
 export default function Home() {
   return (
    <>
-   <main className=" relative bg-black flex justify-center items-center">
+   <main className=" relative flex justify-center items-center">
     <div>
       {//navbar
       }<div className="flex flex-row p-3">
-        <h2 className=" italic text-white">Pivanrios</h2>
+        <h2 className=" italic ">Pivanrios</h2>
         <nav>
-          <ul className="flex flex-row justify-center space-x-1 text-white">
+          <ul className="flex flex-row justify-center space-x-1 ">
             <Link href={"/"}>Home</Link>
             <Link href={"/"}>About</Link>
             <Link href={"/"}>Connect</Link>
