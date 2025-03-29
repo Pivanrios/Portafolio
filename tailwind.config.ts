@@ -10,8 +10,13 @@ const config: Config = {
     theme: {
         extend: {
             colors:{
-                background: 'var(--background)',
-                foreground: 'var(--foreground)',                
+                background: 'rgb(var(--background) / <alpha-value>)',//-- > it captures both types of value
+                surface: 'rgb(var(--surface) / <alpha-value>)',
+                text: 'rgb(var(--text) / <alpha-value>)',
+                primary: 'rgb(var(--primary) / <alpha-value>)',
+                secondary: 'rgb(var(--secondary) / <alpha-value>)',
+                accent: 'rgb(var(--accent) / <alpha-value>)',
+                border: 'rgb(var(--border) / <alpha-value>)',                
             },
             fontFamily: {
                 sans: 'var(--font-sans)',
